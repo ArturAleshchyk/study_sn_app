@@ -1,10 +1,10 @@
 import './App.css';
+import Header from "./components/Header/Header";
 
-function App() {
+const App = () => {
   return (
     <div className="app-wrapper">
-      <header className="header">Header</header>
-
+      <Header/>
       <nav className="nav">
         <div><a href="#">Profile</a></div>
         <div><a href="#">Messages</a></div>
