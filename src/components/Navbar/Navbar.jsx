@@ -1,6 +1,7 @@
 import React from 'react';
+import classes from "Navbar.module.css";
 
-const Nav = () => {
+const Navbar = () => {
   return (
     <nav className="nav">
       <div><a href="#">Profile</a></div>
@@ -9,4 +10,4 @@ const Nav = () => {
   )
 }
 
-export default Nav;
+export default Navbar;

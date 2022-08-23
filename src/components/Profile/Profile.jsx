@@ -1,6 +1,7 @@
 import React from 'react';
+import classes from "./Profile.module.css";
 
-const Content = () => {
+const Profile = () => {
   return (
     <div className="content">
       <div>
@@ -19,4 +20,4 @@ const Content = () => {
   )
 }
 
-export default Content;
+export default Profile;
