@@ -11,8 +11,6 @@ const MyPosts = () => {
       </div>
       <div>
         <Post/>
-        <Post/>
-        <Post/>
       </div>
     </div>
   )
